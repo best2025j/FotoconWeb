@@ -43,7 +43,7 @@ const Navbar = () => {
         {/* MENU */}
         <div className="md:hidden cursor-pointer" onClick={handClick}>
           {nav === false ? (
-            <MenuIcon className="w-8 rounded hover:bg-slate-200 p-1"/>
+            <MenuIcon className="w-8 rounded hover:bg-slate-200 p-1" />
           ) : (
             <XIcon className="w-8 rounded hover:bg-slate-200 p-1" />
           )}
@@ -85,10 +85,10 @@ const Navbar = () => {
         <div className="flex flex-col space-y-1 ">
           {/* BUTTON */}
           <button className="text-base px-8 py-2  rounded-md bg-[#FFD523]">
-            Join
+            <a href="/signup">Join</a>
           </button>
           <button className="text-base px-8 py-2 rounded-md bg-[#FFD523]">
-            Sign-in
+            <a href="/signin">Sign-in</a>
           </button>
         </div>
       </ul>
