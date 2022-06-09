@@ -8,16 +8,20 @@ import Image6 from "../Assets/Rectangle 7.jpg";
 
 const Contest = () => {
   return (
-    <div className="px-[3.5rem]">
-      <h2 className="text-4xl text-[#171717] uppercase text-center">Context</h2>
+    <div className="px-4">
+      <h1 className="sm:text-4xl font-semibold text-[#171717] text-center">
+        Context
+      </h1>
+
       {/* GRID */}
-      <div className="grid grid-cols-3 gap-[10px] py-10">
-        <div className="w-[404px] h-[520px] ">
-          <div className="h-[318px] w-[404.04px]">
-            <img src={Image} alt="/" className="w-full h-full" />
+
+      <div className="grid grid-cols-1 mx-auto lg:grid-cols-3 md:grid-cols-2 sm:py-6 py-4 gap-4">
+        <div className="w-full h-[480px] ">
+          <div className="w-full">
+            <img src={Image} alt="/" className="h-[318px] w-full " />
           </div>
 
-          <div className="px-10 py-4 space-y-4">
+          <div className="py-4 space-y-6 px-8">
             <div className="">
               <div className="font-bold flex justify-between">
                 <p className="text-black">Name of contest</p>
@@ -104,16 +108,16 @@ const Contest = () => {
             </div>
           </div>
         </div>{" "}
-        <div className="w-[404px] h-[520px] ">
-          <div className="h-[318px] w-[404.04px]">
-            <img src={Image2} alt="/" className="w-full h-full" />
+        <div className="w-full h-[480px] ">
+          <div className="w-full">
+            <img src={Image2} alt="/" className="h-[318px] w-full " />
           </div>
 
-          <div className="px-10 py-4 space-y-4">
+          <div className="py-4 space-y-6 px-8">
             <div className="">
               <div className="font-bold flex justify-between">
                 <p className="text-black">Name of contest</p>
-                <span className="">10</span>
+                <span className="">9</span>
               </div>
 
               <div className="flex">
@@ -126,7 +130,7 @@ const Contest = () => {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M12.2231 0L15.8237 6.107115L23.4699 8.2918L18.0489 13.9208L19.174 21.7082L12.2231 18.216L5.27216 21.7082L6.39722 13.9208L0.976248 8.2918L8.6225 6.97115L12.2231 0Z"
+                    d="M12.2231 0L15.8237 6.97115L23.4699 8.2918L18.0489 13.9208L19.174 21.7082L12.2231 18.216L5.27216 21.7082L6.39722 13.9208L0.976248 8.2918L8.6225 6.97115L12.2231 0Z"
                     fill="#2C2E43"
                   />
                 </svg>
@@ -196,16 +200,16 @@ const Contest = () => {
             </div>
           </div>
         </div>{" "}
-        <div className="w-[404px] h-[520px] ">
-          <div className="h-[318px] w-[404.04px]">
-            <img src={Image3} alt="/" className="w-full h-full" />
+        <div className="w-full h-[480px] ">
+          <div className="w-full">
+            <img src={Image3} alt="/" className="h-[318px] w-full " />
           </div>
 
-          <div className="px-10 py-4 space-y-4">
+          <div className="py-4 space-y-6 px-8">
             <div className="">
               <div className="font-bold flex justify-between">
                 <p className="text-black">Name of contest</p>
-                <span className="">20</span>
+                <span className="">9</span>
               </div>
 
               <div className="flex">
@@ -288,12 +292,12 @@ const Contest = () => {
             </div>
           </div>
         </div>{" "}
-        <div className="w-[404px] h-[520px] ">
-          <div className="h-[318px] w-[404.04px]">
-            <img src={Image4} alt="/" className="w-full h-full" />
+        <div className="w-full h-[480px] ">
+          <div className="w-full">
+            <img src={Image4} alt="/" className="h-[318px] w-full " />
           </div>
 
-          <div className="px-10 py-4 space-y-4">
+          <div className="py-4 space-y-6 px-8">
             <div className="">
               <div className="font-bold flex justify-between">
                 <p className="text-black">Name of contest</p>
@@ -380,16 +384,16 @@ const Contest = () => {
             </div>
           </div>
         </div>{" "}
-        <div className="w-[404px] h-[520px] ">
-          <div className="h-[318px] w-[404.04px]">
-            <img src={Image5} alt="/" className="w-full h-full" />
+        <div className="w-full h-[480px] ">
+          <div className="w-full">
+            <img src={Image5} alt="/" className="h-[318px] w-full " />
           </div>
 
-          <div className="px-10 py-4 space-y-4">
+          <div className="py-4 space-y-6 px-8">
             <div className="">
               <div className="font-bold flex justify-between">
                 <p className="text-black">Name of contest</p>
-                <span className="">25</span>
+                <span className="">9</span>
               </div>
 
               <div className="flex">
@@ -472,16 +476,16 @@ const Contest = () => {
             </div>
           </div>
         </div>{" "}
-        <div className="w-[404px] h-[520px] ">
-          <div className="h-[318px] w-[404.04px]">
-            <img src={Image6} alt="/" className="w-full h-full" />
+        <div className="w-full h-[480px] ">
+          <div className="w-full">
+            <img src={Image6} alt="/" className="h-[318px] w-full " />
           </div>
 
-          <div className="px-10 py-4 space-y-4">
+          <div className="py-4 space-y-6 px-8">
             <div className="">
               <div className="font-bold flex justify-between">
                 <p className="text-black">Name of contest</p>
-                <span className="">5</span>
+                <span className="">9</span>
               </div>
 
               <div className="flex">
@@ -564,23 +568,27 @@ const Contest = () => {
             </div>
           </div>
         </div>
+        {/*  */}
       </div>
-                        {/* button */}
+
+      {/* button */}
       <div className="text-center ">
         <button
           type="button"
-          className="px-20 py-4 bg-[#FFD523] text-[#171717] rounded-[6px]"
+          className="md:px-20 md:py-4 py-2 px-4 bg-[#FFD523] text-[#171717] font-medium rounded-[6px]"
         >
           See more contest
         </button>
       </div>
 
-          {/*  */}
-      <div className="py-10">
-        <p className="h-[1px] bg-[#171717] w-[1240px]" />
+      {/*  */}
+      <div className="py-8">
+        <p className="h-[1px] border border-[#171717] w-full" />
       </div>
     </div>
   );
 };
-
 export default Contest;
+
+
+  

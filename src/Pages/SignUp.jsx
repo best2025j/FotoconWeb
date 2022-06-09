@@ -7,118 +7,9 @@ import TwitterIcon from "../svg/TwitterIcon";
 
 const SignUp = () => {
   return (
-    <div class="flex">
-      {/*  */}
-      <div className="w-[910px] min-h-screen h-auto flex bg-[#2C2E43] text-[#FFFFFF] py-4 rounded-tr-3xl px-16  space-x-16">
-        <div className="w-full space-y-7">
-          <p className="text-[24px]">Create account</p>
-          {/*  */}
-          <div className="space-y-4">
-            <form action="" className="space-y-6">
-              <div>
-                <input
-                  type="text"
-                  className=" placeholder-[#171717] text-black py-3 w-[386px] rounded "
-                  placeholder=" Username"
-                />
-              </div>
-
-              {/* EMAIL INPUT */}
-
-              <div>
-                <input
-                  type="text"
-                  className="placeholder-[#171717] text-black py-3 w-[386px] rounded "
-                  placeholder=" Email"
-                />
-              </div>
-
-              {/* PASSWORD INPUT */}
-
-              <div>
-                <input
-                  type="password"
-                  className="placeholder-[#171717] text-black py-3 w-[386px] rounded "
-                  placeholder=" Password"
-                />
-              </div>
-
-              {/* PASSWORD CONFIRMATION INPUT */}
-
-              <div>
-                <input
-                  type="password"
-                  className="placeholder-[#171717] text-black py-3 w-[386px] rounded "
-                  placeholder=" Confirm Password"
-                />
-              </div>
-            </form>
-
-            {/* CHECKBOX INPUT */}
-
-            <div className="mt-[16px]">
-              <input type="checkbox" /> I agree to the terms and conditions
-            </div>
-          </div>
-
-          {/* BUTTON */}
-          <div className="text-center">
-            <button
-              type="button"
-              className="px-20 py-4 bg-[#FFD523] text-[#171717] rounded-[6px]"
-            >
-              Sign up
-            </button>
-          </div>
-
-          {/*  */}
-
-          <div className="space-y-8">
-            <div className="flex justify-center space-x-5">
-              <p className="h-[1px] mt-3 bg-[#FFFFFF] w-28" />
-              <p className="text-center">Or sign up with</p>
-              <p className="h-[1px] bg-[#FFFFFF] w-28 mt-3" />
-            </div>
-
-            {/* SOCIAL MEDIA */}
-
-            <div className="flex space-x-6 justify-center cursor-pointer">
-              <GoogleIcon />
-              <FacebookIcon />
-              <InstagramIcon />
-              <TwitterIcon />
-            </div>
-            <div className="h-[2px] w-full bg-[#E5E5E5]" />
-          </div>
-        </div>
-
-        {/* FLEX 2 */}
-
-        <div className="w-full space-y-2 py-5">
-          <div className="font-[inter] text-[12px] pl-44">Sign in</div>
-          <div className="pt-[60px] ">Join us now</div>
-          <div className="w-[18rem] h-[190px]">
-            <h1 className="text-[32px] font-[inter]">
-              Create an account with us to learn more about us
-            </h1>
-          </div>
-
-          <div className="w-[290px]">
-            <p className="text-[18px] py-4 ">
-              Do you already have an account with us? Please use the
-              {/* LINK TO SIGNIN FORM */}
-              <span className="text-[#FFD523] underline  px-1">
-                <a href="/signin">Login form</a>
-              </span>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/* IMAGE  */}
-
+    <div>
       <div>
-        <img src={image} alt="" className=" w-[34.2rem] h-screen" />
+        <div>ssssw</div>
       </div>
     </div>
   );
@@ -211,3 +102,7 @@ export default SignUp;
 //     </div>
 //   </div>
 // );
+
+
+
+
