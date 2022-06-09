@@ -20,7 +20,7 @@ const Navbar = () => {
             <Link to="home">Home</Link>
           </li>
           <li>
-            <Link to="contest">Contest</Link>
+            <Link to="/contextpage">Contest</Link>
           </li>
           <li>
             <Link to="blogs">Blog</Link>
@@ -33,10 +33,10 @@ const Navbar = () => {
         {/* BUTTON */}
         <div className="space-x-2 hidden md:flex cursor-pointer">
           <button className="text-base px-8 py-2 rounded-md bg-[#FFD523]">
-            Join
+            <a href="/signup">Join</a>
           </button>
           <button className="text-base px-6 py-2 rounded-md bg-[#FFD523]">
-            Sign-in
+            <a href="/signin">Sign-in</a>
           </button>
         </div>
 
