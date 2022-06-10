@@ -3,12 +3,12 @@ import Image from "../Assets/Rectangle 5.jpg";
 
 const Story = () => {
     return (
-      <div className="lg:flex md:flex sm:flex lg:px-4 justify-around lg:justify-around lg:py-6 py-10 ">
+      <div className="lg:flex md:flex sm:flex px-4 justify-around lg:justify-around lg:py-6 py-10 ">
         <div className="">
-          <img src={Image} alt="/" className=" w-full h-[521px]" />
+          <img src={Image} alt="/" className=" w-full h-[450px] sm:h-[521px]" />
         </div>
 
-        <div className="py-10 space-y-10">
+        <div className="py-10 space-y-10 px-4">
           <h1 className="text-2xl font-bold">Our Story</h1>
           <div>
             <p className="lg:text -xl lg:w-[539.58px] md:w-[290px] sm:w-[230px] w-full md:h-[355px]">

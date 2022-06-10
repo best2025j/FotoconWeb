@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full z-10 md:h-[5rem] h-[54px] bg-stone-100">
       <div className="flex justify-between px-4 md:py-5 py-[10px] items-center">
-        <h1 className="md:text-2xl  font-bold">LOGO</h1>
+        <h1 className="md:text-2xl font-bold">LOGO</h1>
 
         {/* LIST */}
         <ul className="md:flex hidden space-x-8 cursor-pointer">

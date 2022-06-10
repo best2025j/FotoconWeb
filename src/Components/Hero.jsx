@@ -1,5 +1,6 @@
 import React from "react";
-import image from "../Assets/Rectangle 6gtpix.png";
+import Image from "../Assets/Rectangle 6gtpix.png";
+
 const Hero = () => {
   return (
     <div className="py-[3.1rem]">
@@ -8,7 +9,7 @@ const Hero = () => {
 
         <div className="w-full relative py-2">
           <img
-            src={image}
+            src={Image}
             alt="/"
             className="w-full sm:h-[546px] h-[20rem] object-cover mix-blend-overlay"
           />
