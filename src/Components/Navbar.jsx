@@ -10,8 +10,8 @@ const Navbar = () => {
   const handleClose = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full z-10 md:h-[5rem] h-[50px] bg-stone-100">
-      <div className="flex justify-between px-4 md:py-5 py-[8px] items-center">
+    <div className="fixed w-full z-10 md:h-[5rem] h-[54px] bg-stone-100">
+      <div className="flex justify-between px-4 md:py-5 py-[10px] items-center">
         <h1 className="md:text-2xl  font-bold">LOGO</h1>
 
         {/* LIST */}

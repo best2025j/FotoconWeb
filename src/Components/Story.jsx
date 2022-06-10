@@ -3,7 +3,7 @@ import Image from "../Assets/Rectangle 5.jpg";
 
 const Story = () => {
     return (
-      <div className="lg:flex md:flex sm:flex px-4 justify-around lg:justify-around lg:py-6 py-10 ">
+      <div className="lg:flex md:flex sm:flex lg:px-4 justify-around lg:justify-around lg:py-6 py-10 ">
         <div className="">
           <img src={Image} alt="/" className=" w-full h-[521px]" />
         </div>
