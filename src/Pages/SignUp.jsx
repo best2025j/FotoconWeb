@@ -4,6 +4,7 @@ import FacebookIcon from "../svg/FacebookIcon";
 import GoogleIcon from "../svg/GoogleIcon";
 import InstagramIcon from "../svg/InstagramIcon";
 import TwitterIcon from "../svg/TwitterIcon";
+import { Link } from "react-router-dom";
 
 const SignUp = () => {
   return (
