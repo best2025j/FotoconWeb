@@ -10,7 +10,7 @@ const Hero = () => {
           <img
             src={image}
             alt="/"
-            className="w-full sm:h-[546px] h-[18rem] object-cover mix-blend-overlay"
+            className="w-full sm:h-[546px] h-[18.3rem] object-cover mix-blend-overlay"
           />
         </div>
 

@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClose = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full z-10 md:h-[5rem] h-[3rem] bg-stone-100">
+    <div className="fixed w-full z-10 md:h-[5rem] h-[50px] bg-stone-100">
       <div className="flex justify-between px-4 md:py-5 py-[8px] items-center">
         <h1 className="md:text-2xl  font-bold">LOGO</h1>
 
@@ -60,22 +60,22 @@ const Navbar = () => {
         }
       >
         <li>
-          <Link to="home" onClick={handleClose}>
+          <Link to="" onClick={handleClose}>
             Home
           </Link>
         </li>
         <li>
-          <Link to="contest" onClick={handleClose}>
+          <Link to="" onClick={handleClose}>
             Contest
           </Link>
         </li>
         <li>
-          <Link to="blogs" onClick={handleClose}>
+          <Link to="" onClick={handleClose}>
             Blog
           </Link>
         </li>
         <li>
-          <Link to="publisher" onClick={handleClose}>
+          <Link to="" onClick={handleClose}>
             Publisher
           </Link>
         </li>
