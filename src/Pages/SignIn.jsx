@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import image from "../Assets/stephanie-harvey-OTUahHcqs0Y-unsplash 1.png";
 import FacebookIcon from "../svg/FacebookIcon";
 import GoogleIcon from "../svg/GoogleIcon";
@@ -91,7 +92,7 @@ const SignIn = () => {
                 New to Fotocon?
                 {/* LINK TO SIGNUP FORM  */}
                 <span className="text-[#FFD523] underline px-1">
-                  <a href="/SignUp">Join now </a>
+                  <Link to="/signup">Join now </Link>
                 </span>
               </p>
             </div>

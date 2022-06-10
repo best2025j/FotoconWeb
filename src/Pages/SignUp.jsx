@@ -96,7 +96,7 @@ const SignUp = () => {
                 form
                 {/* LINK TO SIGNUP FORM  */}
                 <span className="text-[#FFD523] underline px-1">
-                  <a href="/Signin">Login form</a>
+                  <Link to="/signin">Login form</Link>
                 </span>
               </p>
             </div>
@@ -105,7 +105,11 @@ const SignUp = () => {
       </div>
 
       <div>
-        <img src={image} alt="" className="md:block hidden w-[34.2rem] h-screen" />
+        <img
+          src={image}
+          alt=""
+          className="md:block hidden w-[34.2rem] h-screen"
+        />
       </div>
     </div>
   );
