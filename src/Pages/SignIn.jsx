@@ -80,8 +80,8 @@ const SignIn = () => {
 
         <div className="w-full md:py-10">
           <div className="space-y-2">
-            <div className="text-base] pl-44">Sign Up</div>
-            <div className="md:pt-[4rem] text-lg">Welcome back</div>
+            <div className="text-base] float-right font-bold sm:pl-44">Sign Up</div>
+            <div className="md:pt-[4rem] pt-8 text-lg">Welcome back</div>
             <div className="w-[18rem]">
               <h1 className="text-4xl w-[15rem]">
                 A world of great photo contests and awards, in one place

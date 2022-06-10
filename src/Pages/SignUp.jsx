@@ -81,17 +81,17 @@ const SignUp = () => {
           </div>
         </div>
         {/* flex 2 */}
-        <div className="w-full py-2">
+        <div className="w-full py-4">
           <div className="space-y-2">
-            <div className="text-base pl-44">Sign in</div>
+            <div className="text-base float-right font-bold sm:pl-44">Sign in</div>
             <div className="pt-[4rem] text-xl">Join us now</div>
             <div className="w-[18rem]">
-              <h1 className="text-5xl w-[23rem]">
+              <h1 className="sm:text-5xl text-4xl sm:w-[23rem] w-[16rem]">
                 Create an account with us to learn more about us
               </h1>
             </div>
 
-            <div className="w-[293px]">
+            <div className="sm:w-[293px]">
               <p className="text-base py-6 ">
                 Do you already have an account with us? Please use the Login
                 form
