@@ -63,12 +63,12 @@ const SignUp = () => {
           {/* issue section */}
           <div className="space-y-8">
             <div className="flex justify-center space-x-2">
-              <p className="h-[1px] mt-3 bg-[#FFFFFF] w-[8rem]"></p>
+              <p className="h-[1px] mt-3 bg-[#FFFFFF] w-[6.8rem]"></p>
               <p className=""> or sign up with</p>
-              <p className="h-[1px] bg-[#FFFFFF] w-[8rem] mt-3"></p>
+              <p className="h-[1px] bg-[#FFFFFF] w-[6.8rem] mt-3"></p>
             </div>
 
-            <div className="flex justify-center w-full space-x-5 ">
+            <div className="flex justify-center w-full space-x-6 ">
               <GoogleIcon />
               <FacebookIcon />
               <InstagramIcon />
