@@ -62,9 +62,9 @@ const SignUp = () => {
           {/* issue section */}
           <div className="space-y-8">
             <div className="flex justify-center space-x-2">
-              <p className="h-[1px] mt-3 bg-[#FFFFFF] w-20"></p>
+              <p className="h-[1px] mt-3 bg-[#FFFFFF] w-[8rem]"></p>
               <p className=""> or sign up with</p>
-              <p className="h-[1px] bg-[#FFFFFF] w-20 mt-3"></p>
+              <p className="h-[1px] bg-[#FFFFFF] w-[8rem] mt-3"></p>
             </div>
 
             <div className="flex justify-center w-full space-x-5 ">
@@ -75,7 +75,7 @@ const SignUp = () => {
             </div>
 
             <div>
-              <p className="h-[3px] mt-3 bg-gray-600 w-full"></p>
+              <p className="h-[3px] mt-3 bg-[#FFFFFF] w-full"></p>
             </div>
           </div>
         </div>
