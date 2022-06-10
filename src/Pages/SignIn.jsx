@@ -11,7 +11,7 @@ const SignIn = () => {
     <div class="flex">
       {/*  */}
       <div className="w-[910px] md:h-screen md:flex bg-[#2C2E43] px-4 text-[#FFFFFF] md:px-16 rounded-tr-3xl md:space-x-14">
-        <div className="w-full space-y-10 py-[6.3rem]">
+        <div className="w-full space-y-10 sm:py-[6.3rem]">
           <p className="text-[24px]">Login</p>
           {/*  */}
           <div className="space-y-4">
@@ -78,7 +78,7 @@ const SignIn = () => {
 
         {/* FLEX 2 */}
 
-        <div className="w-full md:py-10">
+        <div className="w-full md:py-10 py-4">
           <div className="space-y-2">
             <div className="text-base] float-right font-bold sm:pl-44">Sign Up</div>
             <div className="md:pt-[4rem] pt-8 text-lg">Welcome back</div>
