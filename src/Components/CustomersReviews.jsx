@@ -12,7 +12,7 @@ const CustomersReviews = () => {
 
       {/* GRID */}
       <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 py-10 mx-auto gap-3">
-        <div className="border bg-[#2C2E43] text-white w-full h-[460px] lg:px-3 md:px-[1.5rem]  py-12  rounded-[20px]">
+        <div className="border bg-[#2C2E43] text-white w-full h-[430px] lg:px-3 md:px-[1.5rem]  py-10  rounded-[20px]">
           {/* IMAGE */}
           <div className="flex space-x-10 space-y-12 pl-4">
             <img src={Image} alt="" className="rounded-full " />
@@ -24,7 +24,7 @@ const CustomersReviews = () => {
           {/* CONTENT */}
 
           <div className="w-[325px] mx-auto h-[220px]">
-            <p className="text-xl text-center pt-12">
+            <p className="text-lg px-3 pt-12">
               Join millions of other creatives across the world in sharing your
               finest photographs and collaborating. ViewBug is a community for
               photographers of all abilities. Whether you shoot portraiture,
@@ -32,7 +32,7 @@ const CustomersReviews = () => {
             </p>
           </div>
         </div>
-        <div className="border bg-[#2C2E43] text-white w-full h-[460px] lg:px-3 md:px-[1.5rem]  py-12  rounded-[20px]">
+        <div className="border bg-[#2C2E43] text-white w-full h-[430px] lg:px-3 md:px-[1.5rem]  py-10  rounded-[20px]">
           {/* IMAGE */}
           <div className="flex space-x-10 space-y-12 pl-4">
             <img src={Image1} alt="" className="rounded-full " />
@@ -44,7 +44,7 @@ const CustomersReviews = () => {
           {/* CONTENT */}
 
           <div className="w-[325px] mx-auto h-[220px]">
-            <p className="text-xl text-center pt-12">
+            <p className="text-lg px-3 pt-12">
               Join millions of other creatives across the world in sharing your
               finest photographs and collaborating. ViewBug is a community for
               photographers of all abilities. Whether you shoot portraiture,
@@ -52,7 +52,7 @@ const CustomersReviews = () => {
             </p>
           </div>
         </div>
-        <div className="border bg-[#2C2E43] text-white w-full h-[460px] lg:px-3 md:px-[1.5rem]  py-12  rounded-[20px]">
+        <div className="border bg-[#2C2E43] text-white w-full h-[430px] lg:px-3 md:px-[1.5rem]  py-10  rounded-[20px]">
           {/* IMAGE */}
           <div className="flex space-x-10 space-y-12 pl-4">
             <img src={Image2} alt="" className="rounded-full " />
@@ -64,7 +64,7 @@ const CustomersReviews = () => {
           {/* CONTENT */}
 
           <div className="w-[325px] mx-auto h-[220px]">
-            <p className="text-xl text-center pt-12">
+            <p className="text-lg px-3 pt-12">
               Join millions of other creatives across the world in sharing your
               finest photographs and collaborating. ViewBug is a community for
               photographers of all abilities. Whether you shoot portraiture,
@@ -75,7 +75,7 @@ const CustomersReviews = () => {
       </div>
 
       {/*  */}
-      <div className="space-x-4 text-center py-6">
+      <div className="space-x-4 text-center py-4">
         <button className="rounded-full w-[24px] h-[24px] bg-[#2C2E43]"></button>
         <button className="rounded-full w-[24px] h-[24px] border border-[#2C2E43]"></button>
         <button className="rounded-full w-[24px] h-[24px] border border-[#2C2E43]"></button>
