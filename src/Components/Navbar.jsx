@@ -33,10 +33,10 @@ const Navbar = () => {
         {/* BUTTON */}
         <div className="space-x-2 hidden md:flex cursor-pointer">
           <button className="text-base px-8 py-2 rounded-md bg-[#FFD523]">
-            <a href="/signup">Join</a>
+            <Link to="/signup">Join</Link>
           </button>
           <button className="text-base px-6 py-2 rounded-md bg-[#FFD523]">
-            <a href="/signin">Sign-in</a>
+            <Link to="/signin">Sign-in</Link>
           </button>
         </div>
 
@@ -56,7 +56,7 @@ const Navbar = () => {
         className={
           nav === false
             ? "hidden"
-            : "absolute bg-gray-50 h-screen w-full xl:hidden md:px-8 px-4 py-3   space-y-3"
+            : "absolute bg-gray-50 h-screen w-full xl:hidden md:px-8 px-4 py-3 space-y-5"
         }
       >
         <li>
@@ -82,13 +82,13 @@ const Navbar = () => {
 
         {/* SMALL SCREEN BUTTON */}
 
-        <div className="flex flex-col space-y-1 ">
+        <div className="flex flex-col space-y-2 ">
           {/* BUTTON */}
           <button className="text-base px-8 py-2  rounded-md bg-[#FFD523]">
-            <a href="/signup">Join</a>
+            <Link to="/signup">Join</Link>
           </button>
           <button className="text-base px-8 py-2 rounded-md bg-[#FFD523]">
-            <a href="/signin">Sign-in</a>
+            <Link to="/signin">Sign-in</Link>
           </button>
         </div>
       </ul>

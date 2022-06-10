@@ -18,7 +18,7 @@ const SignIn = () => {
         <div>
           <input
             type="text"
-            className="placeholder-[#171717] text-black py-3 w-[386px] rounded "
+            className="placeholder-[#171717] text-black py-3 md:w-[386px] sm:w-[386px] w-full rounded "
             placeholder=" Email/username"
           />
         </div>
@@ -28,7 +28,7 @@ const SignIn = () => {
         <div>
           <input
             type="password"
-            className="placeholder-[#171717] text-black py-3 w-[386px] rounded "
+            className="placeholder-[#171717] text-black py-3 md:w-[386px] sm:w-[386px] w-full rounded "
             placeholder=" Password"
           />
         </div>

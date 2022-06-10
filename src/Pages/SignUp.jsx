@@ -8,7 +8,7 @@ import TwitterIcon from "../svg/TwitterIcon";
 const SignUp = () => {
   return (
     <div className="flex">
-      <div className="bg-[#2C2E43] text-[#fafafa] md:w-[910px] w-full max-h-full md:h-screen rounded-tr-3xl md:px-8 px-4 py-8 md:flex md:space-x-10 ">
+      <div className="bg-[#2C2E43] text-[#fafafa] md:w-[910px] w-full max-h-full md:h-screen rounded-tr-3xl md:px-8 px-3 py-8 md:flex md:space-x-10 ">
         {/* flex 1 */}
         <div className="space-y-7">
           <p className="text-[24px]">Create account</p>
@@ -17,32 +17,32 @@ const SignUp = () => {
               <div>
                 <input
                   type="text"
-                  className=" placeholder-[#171717] text-black py-3 w-[386px] rounded "
-                  placeholder="Username"
+                  className=" placeholder-[#171717] text-black py-3 sm:w-[386px] w-full rounded "
+                  placeholder=" Username"
                 />
               </div>
               {/* EMAIL INPUT */}
               <div>
                 <input
                   type="text"
-                  className="placeholder-[#171717] text-black py-3 w-[386px] rounded "
-                  placeholder="Email"
+                  className="placeholder-[#171717] text-black py-3 sm:w-[386px] w-full rounded "
+                  placeholder=" Email"
                 />
               </div>
               {/* PASSWORD INPUT */}
               <div>
                 <input
                   type="password"
-                  className="placeholder-[#171717] text-black py-3 w-[386px] rounded "
-                  placeholder="Password"
+                  className="placeholder-[#171717] text-black py-3 sm:w-[386px] w-full rounded "
+                  placeholder=" Password"
                 />
               </div>
               {/* PASSWORD CONFIRMATION INPUT */}
               <div>
                 <input
                   type="password"
-                  className="placeholder-[#171717] text-black py-3 w-[386px] rounded "
-                  placeholder="Confirm Password"
+                  className="placeholder-[#171717] text-black py-3 sm:w-[386px] w-full rounded "
+                  placeholder=" Confirm Password"
                 />
               </div>
               <div className="flex space-x-1">
