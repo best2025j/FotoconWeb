@@ -5,6 +5,15 @@
 
 * {
     font-style: inter;
+    font-family: inter;
+    
+}
+
+@layer base {
+
+    h1 {
+        @apply font-medium
+    }
 }
 
 

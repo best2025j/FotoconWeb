@@ -29,6 +29,7 @@ const SignUp = () => {
                   className="placeholder-[#171717] text-black py-3 sm:w-[386px] w-full rounded "
                   placeholder=" Email"
                 />
+               
               </div>
               {/* PASSWORD INPUT */}
               <div>
@@ -80,6 +81,8 @@ const SignUp = () => {
             </div>
           </div>
         </div>
+
+        
         {/* flex 2 */}
         <div className="w-full py-4">
           <div className="space-y-2">

@@ -7,7 +7,7 @@ const CustomersReviews = () => {
   return (
     <div className="px-4">
       <div className="text-center ">
-        <h1 className="sm:text-4xl font-bold">Customers Reviews</h1>
+        <h1 className="sm:text-4xl">Customers Reviews</h1>
       </div>
 
       {/* GRID */}
@@ -28,7 +28,8 @@ const CustomersReviews = () => {
               Join millions of other creatives across the world in sharing your
               finest photographs and collaborating. ViewBug is a community for
               photographers of all abilities. Whether you shoot portraiture,
-              trav
+              trav                          <p></p>
+
             </p>
           </div>
         </div>

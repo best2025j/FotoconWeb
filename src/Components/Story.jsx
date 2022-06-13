@@ -9,7 +9,7 @@ const Story = () => {
         </div>
 
         <div className="py-10 space-y-10 px-4">
-          <h1 className="text-2xl font-bold">Our Story</h1>
+          <h1 className="text-2xl">Our Story</h1>
           <div>
             <p className="lg:text -xl lg:w-[539.58px] md:w-[290px] sm:w-[230px] w-full md:h-[355px]">
               Join millions of other creatives across the world in sharing your

@@ -9,7 +9,7 @@ import Image6 from "../Assets/Rectangle 7.jpg";
 const Contest = () => {
   return (
     <div className="px-4">
-      <h1 className="sm:text-4xl font-semibold text-[#171717] text-center">
+      <h1 className="sm:text-4xl text-[#171717] text-center">
         Context
       </h1>
 
@@ -23,7 +23,7 @@ const Contest = () => {
 
           <div className="py-4 space-y-6 px-8">
             <div className="">
-              <div className="font-bold flex justify-between">
+              <div className="font-medium flex justify-between">
                 <p className="text-black">Name of contest</p>
                 <span className="">9</span>
               </div>
@@ -115,7 +115,7 @@ const Contest = () => {
 
           <div className="py-4 space-y-6 px-8">
             <div className="">
-              <div className="font-bold flex justify-between">
+              <div className="flex justify-between">
                 <p className="text-black">Name of contest</p>
                 <span className="">9</span>
               </div>
@@ -207,7 +207,7 @@ const Contest = () => {
 
           <div className="py-4 space-y-6 px-8">
             <div className="">
-              <div className="font-bold flex justify-between">
+              <div className="font-medium flex justify-between">
                 <p className="text-black">Name of contest</p>
                 <span className="">9</span>
               </div>
@@ -299,7 +299,7 @@ const Contest = () => {
 
           <div className="py-4 space-y-6 px-8">
             <div className="">
-              <div className="font-bold flex justify-between">
+              <div className="font-medium flex justify-between">
                 <p className="text-black">Name of contest</p>
                 <span className="">9</span>
               </div>
@@ -391,7 +391,7 @@ const Contest = () => {
 
           <div className="py-4 space-y-6 px-8">
             <div className="">
-              <div className="font-bold flex justify-between">
+              <div className="font-medium flex justify-between">
                 <p className="text-black">Name of contest</p>
                 <span className="">9</span>
               </div>
@@ -483,7 +483,7 @@ const Contest = () => {
 
           <div className="py-4 space-y-6 px-8">
             <div className="">
-              <div className="font-bold flex justify-between">
+              <div className="font-medium flex justify-between">
                 <p className="text-black">Name of contest</p>
                 <span className="">9</span>
               </div>
