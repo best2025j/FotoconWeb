@@ -112,7 +112,7 @@ const SignUp = () => {
         <img
           src={image}
           alt=""
-          className="md:block hidden w-[34.2rem] h-screen"
+          className="sm:block hidden w-[34.2rem] h-screen"
         />
       </div>
     </div>

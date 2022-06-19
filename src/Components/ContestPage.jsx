@@ -1,12 +1,13 @@
 import React from "react";
-import Navbar from "./Navbar";
 import image from "../Assets/Rectangle 7.jpg";
 import image2 from "../Assets/Rectangle 12.png";
 import image3 from "../Assets/Rectangle 12(1).png";
-import FacebookIcon from "../svg/FacebookIcon";
-import GoogleIcon from "../svg/GoogleIcon";
-import InstagramIcon from "../svg/InstagramIcon";
-import TwitterIcon from "../svg/TwitterIcon";
+import Navbar from "./Navbar";
+// import FacebookIcon from "../svg/FacebookIcon";
+// import GoogleIcon from "../svg/GoogleIcon";
+// import InstagramIcon from "../svg/InstagramIcon";
+// import TwitterIcon from "../svg/TwitterIcon";
+
 
 const ContestPage = () => {
   return (
@@ -123,6 +124,7 @@ const ContestPage = () => {
                 Upload photo
               </button>
             </div>
+          
 
             {/*  */}
             <div className="flex ">
@@ -132,10 +134,10 @@ const ContestPage = () => {
 
               {/*  */}
 
-              <GoogleIcon />
+              {/* <GoogleIcon />
               <FacebookIcon />
               <InstagramIcon />
-              <TwitterIcon />
+              <TwitterIcon /> */}
             </div>
           </div>
         </div>
@@ -161,8 +163,8 @@ const ContestPage = () => {
 
           {/*  */}
           <div className="sm:flex justify-between">
-            <p className="sm:w-[720px]">
-              Join millions of other creatives across the world in sharing your
+            <p className="lg:w-[720px] md:w-[500px]">
+              Join millions of other creatives across the world in sharing your``````
               finest photographs and collaborating. ViewBug is a community for
               photographers of all abilities. Whether you shoot portraiture,
               travel, lifestyle, or landscapes, ViewBug is the place for you.

@@ -5,6 +5,7 @@ const Hero = () => {
   return (
     <div className="py-[3.1rem]">
       <div className="px-4 sm:space-y-10 space-y-8">
+        
         {/*  */}
 
         <div className="w-full relative py-2">
@@ -17,9 +18,9 @@ const Hero = () => {
 
         {/*  */}
 
-        <div className="absolute top-[12%] text-white space-y-6 px-8">
+        <div className="absolute sm:top-[12%] top-14 space-y-5 text-white sm:space-y-6 px-8">
           <div className="">
-            <h1 className="sm:text-[56px] sm:w-[42rem] ">
+            <h1 className="sm:text-[56px] sm:w-[42rem] text-[30px]">
               A world of great photo contests and awards, in one place.
             </h1>
             <p className="text-base sm:text-[24px] sm:w-[30rem] ">
