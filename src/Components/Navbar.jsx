@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClose = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full z-10 md:h-[5rem] h-[54px] bg-stone-50">
+    <div className="fixed w-full z-10 md:h-[5rem] h-[54px] bg-stone-50 shadow-xl">
       <div className="flex justify-between px-4 md:py-5 py-[10px] items-center">
         <h1 className="md:text-2xl">LOGO</h1>
 

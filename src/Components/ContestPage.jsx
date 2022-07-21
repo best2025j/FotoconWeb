@@ -1,15 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import image from "../Assets/Rectangle 7.jpg";
 import image2 from "../Assets/Rectangle 12.png";
 import image3 from "../Assets/Rectangle 12(1).png";
 import Navbar from "./Navbar";
+import UploadData from "./UploadData";
+
 // import FacebookIcon from "../svg/FacebookIcon";
 // import GoogleIcon from "../svg/GoogleIcon";
 // import InstagramIcon from "../svg/InstagramIcon";
 // import TwitterIcon from "../svg/TwitterIcon";
 
-
 const ContestPage = () => {
+  const [open, setOpen] = useState(false);
+  const handclick = () => setOpen(!open);
+
   return (
     <div className="">
       <Navbar />
@@ -120,11 +124,18 @@ const ContestPage = () => {
 
             {/*  */}
             <div>
-              <button className=" md:px-8 md:py-3 py-2 px-4 bg-[#FFD523] text-sm text-[#171717] rounded-[6px]">
-                Upload photo
-              </button>
+              {open === false ? (
+                <button
+                  type="submit"
+                  onClick={handclick}
+                  className=" md:px-8 md:py-3 py-2 px-4 bg-[#FFD523] text-sm text-[#171717] rounded-[6px]"
+                >
+                  Upload photo
+                </button>
+              ) : (
+                <UploadData />
+              )}
             </div>
-          
 
             {/*  */}
             <div className="flex ">
@@ -144,7 +155,7 @@ const ContestPage = () => {
 
         {/*  */}
         <div className="flex space-x-4 sm:pl-20 py-4 ">
-          <img src={image2} alt="" className="w-[155px]"/>
+          <img src={image2} alt="" className="w-[155px]" />
           <img src={image3} alt="" className="w-[155px]" />
         </div>
 
@@ -164,14 +175,15 @@ const ContestPage = () => {
           {/*  */}
           <div className="sm:flex justify-between">
             <p className="lg:w-[720px] md:w-[500px]">
-              Join millions of other creatives across the world in sharing your``````
-              finest photographs and collaborating. ViewBug is a community for
-              photographers of all abilities. Whether you shoot portraiture,
-              travel, lifestyle, or landscapes, ViewBug is the place for you.
-              Follow your favorite photographers, enter the greatest contests,
-              and start your own hallenges to celebrate creativity and be
-              inspired. Welcome to the new home for your photographs, and thank
-              you for being a member of the most rewarding community.
+              Join millions of other creatives across the world in sharing
+              your`````` finest photographs and collaborating. ViewBug is a
+              community for photographers of all abilities. Whether you shoot
+              portraiture, travel, lifestyle, or landscapes, ViewBug is the
+              place for you. Follow your favorite photographers, enter the
+              greatest contests, and start your own hallenges to celebrate
+              creativity and be inspired. Welcome to the new home for your
+              photographs, and thank you for being a member of the most
+              rewarding community.
             </p>
 
             {/*  */}
@@ -182,7 +194,7 @@ const ContestPage = () => {
               <p>Created by Destiny Destiny</p>
 
               {/*  */}
-              <button className=" md:px-8 md:py-3 py-2 px-4 bg-[#FFD523] text-sm text-[#171717] rounded-[6px]">
+              <button className="md:px-8 md:py-3 py-2 px-4 bg-[#FFD523] text-sm text-[#171717] rounded-[6px]">
                 Rate this contest
               </button>
             </div>

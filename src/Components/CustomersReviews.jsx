@@ -28,11 +28,11 @@ const CustomersReviews = () => {
               Join millions of other creatives across the world in sharing your
               finest photographs and collaborating. ViewBug is a community for
               photographers of all abilities. Whether you shoot portraiture,
-              trav                          <p></p>
-
+              trav
             </p>
           </div>
         </div>
+
         <div className="border bg-[#2C2E43] text-white w-full h-[430px] lg:px-3 md:px-[1.5rem]  py-10  rounded-[20px]">
           {/* IMAGE */}
           <div className="flex space-x-10 space-y-12 pl-4">
@@ -53,6 +53,7 @@ const CustomersReviews = () => {
             </p>
           </div>
         </div>
+        
         <div className="border bg-[#2C2E43] text-white w-full h-[430px] lg:px-3 md:px-[1.5rem]  py-10  rounded-[20px]">
           {/* IMAGE */}
           <div className="flex space-x-10 space-y-12 pl-4">

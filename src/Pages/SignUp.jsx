@@ -9,12 +9,12 @@ import { Link } from "react-router-dom";
 const SignUp = () => {
   return (
     <div className="flex">
-      <div className="bg-[#2C2E43] text-[#fafafa] md:w-[910px] w-full max-h-full md:h-screen rounded-tr-3xl md:px-8 px-3 py-8 md:flex md:space-x-10 ">
+      <div className="bg-[#2C2E43] text-[#fafafa] md:w-[910px] w-full max-h-full md:h-screen rounded-tr-3xl md:px-8 px-3 py-6 md:flex md:space-x-10 ">
         {/* flex 1 */}
         <div className="space-y-7">
           <p className="text-[24px]">Create account</p>
           <div className="space-y-4">
-            <form action="" className="space-y-5">
+            <form action="" className="space-y-4">
               <div>
                 <input
                   type="text"
@@ -87,9 +87,9 @@ const SignUp = () => {
         <div className="w-full py-4">
           <div className="space-y-2">
             <div className="text-base float-right font-bold sm:pl-44">Sign in</div>
-            <div className="pt-[4rem] text-xl">Join us now</div>
+            <div className="pt-[4rem] text-lg">Join us now</div>
             <div className="w-[18rem]">
-              <h1 className="sm:text-5xl text-4xl sm:w-[23rem] w-[16rem]">
+              <h1 className="sm:text-4xl text-4xl sm:w-[20rem] w-[16rem]">
                 Create an account with us to learn more about us
               </h1>
             </div>

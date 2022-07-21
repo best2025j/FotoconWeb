@@ -291,7 +291,8 @@ const Contest = () => {
               </button>
             </div>
           </div>
-        </div>{" "}
+        </div>
+        {" "}
         <div className="w-full h-[480px] ">
           <div className="w-full">
             <img src={Image4} alt="/" className="h-[318px] w-full " />
